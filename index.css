@@ -1,0 +1,39 @@
+#clockContainer{
+    position:relative;
+    background:URL('download.png');
+    background-repeat: no-repeat;
+    height:40vw;
+    width: 40vw;
+    margin:auto;
+    background-size: 100%;
+    
+}
+#Hourhand{
+position: absolute;
+height:11vw;
+width:0.8vw;
+background-color: black;
+left:48.6%;
+top:22%;
+transform-origin: bottom;
+}
+#Minutehand{
+position: absolute;
+height:14vw;
+width:0.8vw;
+background-color: black;
+left:48.6%;
+top:16%;
+transform-origin: bottom;
+/* display: none; */
+}
+#secondhand{
+position: absolute;
+height:16vw;
+width:0.8vw;
+background-color: black;
+left:48.6%;
+top:10%;
+transform-origin: bottom;
+/* display: none; */
+}
