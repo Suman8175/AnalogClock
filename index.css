@@ -10,30 +10,33 @@
 }
 #Hourhand{
 position: absolute;
-height:11vw;
-width:0.8vw;
+height:9vw;
+width:0.58vw;
 background-color: black;
-left:48.6%;
-top:22%;
+left:49.5%;
+top:28%;
 transform-origin: bottom;
+border-radius: 60%;
 }
 #Minutehand{
 position: absolute;
 height:14vw;
-width:0.8vw;
+width:0.38vw;
 background-color: black;
-left:48.6%;
-top:16%;
+left:49.5%;
+top:15%;
 transform-origin: bottom;
+border-radius: 60%;
 /* display: none; */
 }
 #secondhand{
 position: absolute;
-height:16vw;
-width:0.8vw;
+height:18vw;
+width:0.25vw;
 background-color: black;
-left:48.6%;
-top:10%;
+left:49.5%;
+top:5%;
 transform-origin: bottom;
+border-radius: 60%;
 /* display: none; */
 }

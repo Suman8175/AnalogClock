@@ -11,4 +11,4 @@ srotate=6*second
 Hourhand.style.transform=`rotate(${hrotate}deg)`;
 Minutehand.style.transform=`rotate(${mrotate}deg)`;
 secondhand.style.transform=`rotate(${srotate}deg)`;
-},1000)
+},100)
